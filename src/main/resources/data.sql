@@ -1,0 +1,2 @@
+INSERT INTO merchant (id, username, password, merchant_name, status, create_time, update_time) VALUES (1, 'test_merchant', 'password', 'Test Merchant Name', 1, NOW(), NOW());
+INSERT INTO gift_code (code, status, expire_time, goods_name, merchant_id) VALUES ('TESTCODE123', 0, '2025-12-31 23:59:59', 'Test Goods', 1);
